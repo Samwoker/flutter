@@ -23,7 +23,7 @@ class WidgetTree extends StatelessWidget {
             icon: ValueListenableBuilder(
               valueListenable: isDarkModeNotifier,
               builder: (context, isDarkMode, child) {
-                return Icon(isDarkMode ? Icons.dark_mode : Icons.light_mode);
+                return Icon(isDarkMode ? Icons.light_mode : Icons.dark_mode);
               },
             ),
           ),
